@@ -1,0 +1,84 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size: 62.5%;
+  background-image: url(/img/cedar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+font-size: 3rem;
+font-weight: 700;
+color: blanchedalmond;
+background-color: rgba(0, 0, 0, 0.329);
+
+}
+nav{
+  width: 100vw;
+}
+nav ul{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.695);
+  padding: 1rem 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+height: 500px;
+width: 100%;
+background-image: url(/img/Salmon.png);
+background-position: center;
+background-size: 50%;
+background-repeat: no-repeat;
+margin-bottom: -10rem;
+}
+
+main div{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.26);
+  padding: 3rem;
+}
+main div article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.698);
+  border-radius: 5px;
+}
+main div img{
+  height: 30rem;
+  width: 50rem;
+  background-color: aqua;
+  border-radius: 0 0 5px 5px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
