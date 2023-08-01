@@ -31,16 +31,23 @@ font-size: 3rem;
 font-weight: 700;
 color: blanchedalmond;
 background-color: rgba(0, 0, 0, 0.329);
-
 }
+
+/******************************************
+/* NAV
+/*******************************************/
 nav{
-  width: 100vw;
+  width: 100%;
 }
 nav ul{
   display: flex;
   justify-content: space-evenly;
   background-color: rgba(0, 0, 0, 0.695);
   padding: 1rem 0;
+}
+a{
+  color: blanchedalmond;
+  text-decoration: none;
 }
 
 /******************************************
@@ -56,26 +63,39 @@ background-repeat: no-repeat;
 margin-bottom: -10rem;
 }
 
-main div{
+main div,
+.lureTypes ul{
   display: flex;
   justify-content: space-evenly;
-  background-color: rgba(0, 0, 0, 0.26);
-  padding: 3rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.161), rgba(0, 0, 0, 0.309), rgba(0, 0, 0, 0.16));
+  padding: 4rem;
 }
-main div article{
+article{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.698);
-  border-radius: 5px;
+  border-radius: 10%/70%;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
-main div img{
+article img{
   height: 30rem;
   width: 50rem;
-  background-color: aqua;
-  border-radius: 0 0 5px 5px;
+  background-image: linear-gradient(to bottom right, salmon, rgb(194, 194, 194));
+  border-radius: 10%/70%;
 }
+
+.lureTypes img{
+  height: 20rem;
+  width: 30rem;
+}
+
+
+
 
 
 
