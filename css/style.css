@@ -31,6 +31,26 @@ font-size: 3rem;
 font-weight: 700;
 color: blanchedalmond;
 background-color: rgba(0, 0, 0, 0.329);
+margin-bottom: -4rem;
+}
+.content {
+  min-height: calc(100vh - 9rem);
+}
+footer{
+  width: 100%;
+  position: relative;
+  background-color: black;
+  height: 4rem;
+}
+small{
+  position:absolute;
+  font-variant: small-caps;
+  font-size: 1.5rem;
+  background-color: black;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  left: 50%;
+  margin: auto;
 }
 
 /******************************************
@@ -93,6 +113,8 @@ article img{
   height: 20rem;
   width: 30rem;
 }
+
+
 
 
 
