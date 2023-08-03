@@ -109,6 +109,10 @@ article img{
   background-image: linear-gradient(to bottom right, salmon, rgb(194, 194, 194));
   border-radius: 10%/70%;
 }
+article h2,
+article h3{
+  padding-bottom: 1rem;
+}
 .lureTypes{
   background-color: rgba(255, 223, 203, 0.31) ;
 }
