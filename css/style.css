@@ -76,8 +76,9 @@ a{
 header {
 height: 500px;
 width: 100%;
-background-image: url(/img/Salmon.png);
+background-image: url(/img/SalmonLures.png);
 background-position: center;
+background-position-y: 38%;
 background-size: 50%;
 background-repeat: no-repeat;
 margin-bottom: -10rem;
